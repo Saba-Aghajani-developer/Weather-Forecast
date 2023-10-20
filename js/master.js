@@ -22,7 +22,7 @@ function _weather() {
                     _city.innerHTML = val.name
                     _temperature.innerHTML = '+' + parseInt(val.main.temp) + '°C'
                     _humidity.innerHTML = val.main.humidity + '%'
-                    _img.src = '../img/' + val.weather[0].main + '.png'
+                    _img.src = './img/' + val.weather[0].main + '.png'
                 }))
     }
 }
